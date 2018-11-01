@@ -2,7 +2,7 @@
 
 """Performs nmap network scanning on specified node"""
 
-__AUTHOR__ = 'Lukasz W'
+__AUTHOR__ = 'Maniek'
 __VERSION__ = "0.10 November 2018"
 
 """
