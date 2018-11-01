@@ -1,12 +1,12 @@
 
-lista1 = [ "lukasz", "gosia", "pawel", "jas"]
+list1 = ["item1", "item2", "item3", "item4"]
 
-list = [ (x,y) for x in lista1 for y in range(1,10) ]
+list2 = [(x, y) for x in list1 for y in range(1, 10)]
 print list
 
-add = lambda x,y : x+y
-sub = lambda x,y : x-y
-mul = lambda x,y : x*y
-div = lambda x,y : x/y
+add = lambda x, y: x+y
+sub = lambda x, y: x-y
+mul = lambda x, y: x*y
+div = lambda x, y: x/y
 
-print("dodawanie: ".format( add(2,3) ) )
+print("addition: ".format(add(2, 3)))

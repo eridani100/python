@@ -17,7 +17,7 @@ def hello(who):
     print("hello {who}")
 
 
-say_hello("Lukasz")
+say_hello("Hello")
 
 hello("World")
 
